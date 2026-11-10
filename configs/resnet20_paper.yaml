@@ -1,0 +1,10 @@
+# The original schedule from Section 4.2: lr 0.1, divided by 10 at 32k and 48k iterations,
+# stopped at 64k iterations. With 391 iterations per epoch that is epochs 82 and 123 out of 164.
+name: resnet20_paper
+depth: 20
+residual: true
+epochs: 164
+lr: 0.1
+weight_decay: 1.0e-4
+scheduler: multistep
+milestones: [82, 123]

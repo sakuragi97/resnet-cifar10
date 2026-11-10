@@ -1,0 +1,8 @@
+# ResNet-20 (0.27M parameters). 30 epochs with cosine decay takes ~13 min on an RTX 4060 laptop GPU.
+name: resnet20
+depth: 20
+residual: true
+epochs: 30
+lr: 0.1
+weight_decay: 5.0e-4
+scheduler: cosine

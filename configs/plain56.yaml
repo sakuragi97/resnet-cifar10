@@ -1,0 +1,8 @@
+# Plain-56: same layers as ResNet-56 but without shortcut connections.
+name: plain56
+depth: 56
+residual: false
+epochs: 30
+lr: 0.1
+weight_decay: 5.0e-4
+scheduler: cosine

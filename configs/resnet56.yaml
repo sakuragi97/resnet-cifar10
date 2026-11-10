@@ -1,0 +1,8 @@
+# ResNet-56 (0.86M parameters).
+name: resnet56
+depth: 56
+residual: true
+epochs: 30
+lr: 0.1
+weight_decay: 5.0e-4
+scheduler: cosine

@@ -1,0 +1,8 @@
+# Plain-20: same layers as ResNet-20 but without shortcut connections.
+name: plain20
+depth: 20
+residual: false
+epochs: 30
+lr: 0.1
+weight_decay: 5.0e-4
+scheduler: cosine

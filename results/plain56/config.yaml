@@ -1,0 +1,16 @@
+name: plain56
+depth: 56
+residual: false
+zero_init_residual: false
+epochs: 30
+batch_size: 128
+lr: 0.1
+momentum: 0.9
+weight_decay: 0.0005
+scheduler: cosine
+milestones: []
+data_dir: data
+out_dir: runs
+num_workers: 2
+seed: 42
+device: auto
